@@ -1,3 +1,32 @@
+##################################
+##								##
+##			Git Ignore			##
+##								##
+##################################
+
+.DS_Store
+
+*.log
+/.htaccess
+/license.txt
+/readme.html
+/sitemap.xml
+/sitemap.xml.gz
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Jekyll Files
+#-------------------------
 _site/
 .sass-cache/
 .jekyll-metadata
